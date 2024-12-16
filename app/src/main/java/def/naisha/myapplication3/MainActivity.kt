@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import def.naisha.myapplication3.layout.Saludo
+import def.naisha.myapplication3.layout.Columnas
 
 
 class MainActivity : ComponentActivity() {
@@ -12,7 +12,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            Saludo()
+            Columnas()
         }
     }
 }

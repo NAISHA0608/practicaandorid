@@ -15,19 +15,19 @@ import androidx.compose.ui.unit.dp // Import necesario para dp
 import def.naisha.myapplication3.ui.theme.MyApplication3Theme
 
 @Composable
-fun Saludo() {
+fun Columnas() {
     Column (
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
         modifier = Modifier.padding(vertical = 36.dp, horizontal = 8.dp)
-            .background(color = androidx.compose.ui.graphics.Color.Red)
+            .background(color = androidx.compose.ui.graphics.Color.Yellow)
             .fillMaxSize()
     ) {
         Text(
-            text = "Hello"
+            text = "Computacion Movil  Pao 6"
         )
         Text(
-            text = "Mi nombre es Mario Mendez"
+            text = "Mario Alexander Mendez Gomez, Naisha Dasary Ayovi Medina"
         )
     }
 }
@@ -36,6 +36,6 @@ fun Saludo() {
 @Composable
 fun PreviewSaludo() {
     MyApplication3Theme {
-        Saludo()
+        Columnas()
     }
 }
